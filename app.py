@@ -12,7 +12,7 @@ model_path = "trained_model.pt"
 
 # Load the model
 try:
-    model = YOLO(model_path)
+    model = YOLO('yolov8n.pt')
     st.sidebar.success("Model loaded successfully!")
 except Exception as e:
     st.sidebar.error(f"Error loading model: {e}")

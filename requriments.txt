@@ -1,6 +1,5 @@
-streamlit
+flask
 ultralytics
-PIL
-cv2
+Pillow
+opencv-python-headless
 numpy
-tempfile
