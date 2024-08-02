@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/07 yolo/data/train
+val: /content/drive/MyDrive/07 yolo/data/valid
+
+nc: 5
+names: ['Helmet', 'Goggles', 'Jacket', 'Gloves', 'Footwear']
